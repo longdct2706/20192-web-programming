@@ -1,0 +1,42 @@
+
+<html>
+    <head><title>A (Not Quite) Simple Form</title></head>
+    <body>
+        <form action="YourInfo.php" method="POST">
+            <br/>Full name: <input type="text" size="15" maxlength="20" name="fname"><br/>
+            <br/>Class: <input type="text" size="15" maxlength="20" name="fclass"><br/>
+            <br/>University: <input type="text" size="15" maxlength="20" name="funi"><br/>
+            Gender :
+            <input type="radio" name="fgender" value="male" checked > Male
+            <input type="radio" name="fgender" value="female"> Female
+            <br/>
+            Let us know your hobbies!
+
+            <br><input type="checkbox" name="fhobby[]" value="book"> Reading book
+            <br><input type="checkbox" name="fhobby[]" value="music"> Listening to music
+            <br><input type="checkbox" name="fhobby[]" value="dance"> Dancing
+            <br><input type="checkbox" name="fhobby[]" value="bar"> Bar
+            <br><input type="checkbox" name="fhobby[]" value="game"> Gaming
+
+            <br><br>
+            We can contact you by 
+<!--            <select name="fcontact[]" size="3" multiple>
+                <option>Email</option>
+                <option>SMS</option>
+                <option>Phone</option>
+            </select> -->
+            <br><input type="checkbox" name="fcontact[]" value="book"> Email
+            <br><input type="checkbox" name="fcontact[]" value="music"> Phone
+            <br><input type="checkbox" name="fcontact[]" value="dance"> SMS
+            <br>
+            Any other opinions? Let us know 
+            <br>
+            <textarea rows="4" cols="50" name="fcmt"></textarea>
+            <br>
+            Click submit to start our initial PHP program. 
+            <br>
+            <input type="submit" value="Click to Submit">
+            <input type="reset" value="Erase and Restart">
+        </form>
+    </body>
+</html>
