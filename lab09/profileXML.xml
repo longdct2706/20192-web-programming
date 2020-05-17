@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student[
+    <!ELEMENT students (sid, fullName, DOB, class, uni)>
+    <!ELEMENT fullName (firstName, lastName)>
+    <!ELEMENT DOB (day, month, year)>
+]>
+
+<student>
+  <fullName>
+      <firstName>Long</firstName>
+      <lastName>Doan</lastName>
+  </fullName>
+  <sid>20162513</sid>
+  <dob>
+      <day>27</day>
+      <month>06</month>
+      <year>1998</year>
+  </dob>
+  <class>ICT.02-K61</class>
+  <university>Hanoi University of Science and Technology</university>
+</student>
+
