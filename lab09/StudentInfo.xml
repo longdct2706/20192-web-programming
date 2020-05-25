@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href= "student.css"?>
+<!DOCTYPE student SYSTEM "Student.dtd">
+<student>
+    <name>Name: Doan Cao Thanh Long</name>
+    <id>Student ID: 20162513</id>
+    <dob> DOB: 27 / 06 / 1998 </dob>
+    <city>City: Hanoi </city>
+    <email>Email: long.dct2706@gmail.com </email>
+    <phone>Phone: 0762069060 </phone>
+    <school>School: Hanoi University of Science and Technology </school>
+</student>
